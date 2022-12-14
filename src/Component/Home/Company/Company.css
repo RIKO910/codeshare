@@ -1,5 +1,5 @@
 .image img{
-    width: 50px;
+    width: 350px;
 }
 
 .image{
@@ -9,6 +9,6 @@
     display: grid;
     width: 50%;
     margin-top: 30px;
-    margin-left: 370px;
+    margin-left: 330px;
     margin-bottom: 30px;
 }

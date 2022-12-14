@@ -1,10 +1,12 @@
 import React from 'react';
+import Navbar from '../../Shared/Navbar/Navbar';
 
 const SignUp = () => {
     return (
         <div>
+            <Navbar></Navbar>
             <div>
-                <div className="hero  min-h-screen bg-base-200">
+                <div className="hero  min-h-screen ">
                     <div className="hero-content flex-col lg:flex-row-reverse">
                         
                        
@@ -32,7 +34,7 @@ const SignUp = () => {
                                 <div className="form-control mt-6">
                                     <button className="btn btn-primary">Sign up</button>
                                 </div>
-                                <div className="form-control mt-6">
+                                <div className="form-control mt-6 App">
                                    <p>Already signed up? <a href="/login" className='link'>Log in here</a></p>
                                 </div>
                             </div>

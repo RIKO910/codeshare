@@ -8,8 +8,8 @@ import Login from './Component/Registration/Login/Login';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
+    <div className="">
+      
       <Routes>
         <Route path='/' element={<Home></Home>}>
         </Route>
